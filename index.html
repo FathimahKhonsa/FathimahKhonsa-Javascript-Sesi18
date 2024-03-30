@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Login</title>
 </head>
 <body>
-    
+    <div class="background">
+        <div class="container_content_login">
+            <div class="login_content">
+                <div class="login">
+                    <h2>TOUT ICI.co</h2>
+                    <div class="massage" id="message"></div>
+                    <input class="input_style" type="text" id="usernameInput" placeholder="Your Username"/>
+                    <input class="input_style" type="password" id="passwordInput" placeholder="Your Password"/>
+                    <button class="btn_login" id="btnLogin" onclick="onClickBtn()">Login</button>
+                </div>
+            </div>
+            <div class="login_img_container">
+                <img src="img/shopping.jpg" alt="shopping"/>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+<script src="JS/login.js"></script>
